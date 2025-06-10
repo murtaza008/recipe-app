@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find and explore delicious recipes from around the world">
+    <title>Recipe Finder - Discover Delicious Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Recipe Finder</h1>
+            <form>
+                <input type="text" placeholder="Search for recipes..." class="searchBox" aria-label="Search recipes">
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2 class="search-message">Search your favourite recipes</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-closeBtn" aria-label="Close recipe details">×</button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
